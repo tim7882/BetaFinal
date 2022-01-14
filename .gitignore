@@ -1,5 +1,4 @@
 # Visual Studio 2015 user specific files
-.vs/
 
 # Compiled Object files
 *.slo
@@ -14,10 +13,12 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+
 
 # Fortran module files
-*.mod
+*.pdb
+*.dll
+
 
 # Compiled Static libraries
 *.lai
@@ -46,8 +47,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+
 
 # Builds
 Build/*
@@ -72,3 +72,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/VehicleBP/Maps/VehicleExampleMap.umap
